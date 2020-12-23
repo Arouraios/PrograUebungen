@@ -40,20 +40,7 @@ public class Punkt {
 	}
 
 	public static void main(String[] args) {
-		Punkt p1 = new Punkt(15d, 20d);
-		System.out.println(p1.toString());
-		Punkt p2 = new Punkt(20d, 25d);
-		System.out.println(p2.toString());
-		System.out.println(p1.abstand(p2).toPlainString());
-		System.out.println(p1.equals(p2));
-		Gerade g = new Gerade(p2, p1);
-		System.out.println(g.toString());
-		System.out.println("" + g.enthaelt(new Punkt(14d, 19d)) + g.enthaelt(p1) + g.enthaelt(new Punkt(16d, 21d))
-				+ g.enthaelt(p2) + g.enthaelt(new Punkt(21d, 26d)));
-		System.out.println(g.enthaelt(new Punkt(17d, 21d)) + "" + g.enthaelt(new Punkt(21d, 21d)));
-		System.out.println(p1.toString() + g.enthaelt(p1) + g.zwischenp1p2(p1));
-		System.out.println(g.vorp1(p1) + "");
-		System.out.println("" + g.hinterp2(p1));
+//		
 	}
 
 }
