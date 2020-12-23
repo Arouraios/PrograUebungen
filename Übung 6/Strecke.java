@@ -10,7 +10,7 @@ public class Strecke extends Strahl {
 
 	public boolean equals(Object obj) {
 		if (obj.getClass().equals(this.getClass()))
-			return (p1.equals(((Strecke) obj).getP1()) && p1.equals(((Strecke) obj).getP1()));
+			return (p1.equals(((Strecke) obj).getP1()) && p2.equals(((Strecke) obj).getP2()));
 		return false;
 	}
 	
